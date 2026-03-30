@@ -1,4 +1,4 @@
-# 🏦 Pipeline ETL com IA Generativa | ETL Pipeline with Generative AI
+# Pipeline ETL com IA Generativa | ETL Pipeline with Generative AI
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📋 Sobre o Projeto | About
+## Sobre o Projeto | About
 
 **PT-BR:** Pipeline ETL completo em Python que extrai dados de usuários de uma API pública, enriquece com perfil bancário fictício gerado por IA Generativa e cria mensagens de marketing personalizadas para cada cliente — persistindo os dados em múltiplos formatos.
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 🔄 Fluxo do Pipeline | Pipeline Flow
+## Fluxo do Pipeline | Pipeline Flow
 
 ```
 📥 EXTRACT          🔄 TRANSFORM                    💾 LOAD
@@ -35,7 +35,7 @@ IDs via CSV      Score, renda, produtos           SQLite (3 tabelas)
 
 ---
 
-## ✨ Destaques Técnicos | Technical Highlights
+## Destaques Técnicos | Technical Highlights
 
 - **Prompt Engineering** estruturado em blocos com regras e faixas de referência para garantir coerência dos dados gerados
 - **Programação defensiva** — tratamento da resposta da IA com `re.sub` e `.replace()` para garantir dados limpos independente do comportamento do modelo
@@ -46,7 +46,7 @@ IDs via CSV      Score, renda, produtos           SQLite (3 tabelas)
 
 ---
 
-## 🖥️ Demonstração | Demo
+## Demonstração | Demo
 
 ### Pipeline em execução | Pipeline running
 ![Pipeline Output](assets/pipeline_output.png)
@@ -62,7 +62,7 @@ IDs via CSV      Score, renda, produtos           SQLite (3 tabelas)
 
 ---
 
-## 🗂️ Estrutura do Projeto | Project Structure
+## Estrutura do Projeto | Project Structure
 
 ```
 ETL_GenAI/
@@ -78,7 +78,7 @@ ETL_GenAI/
 
 ---
 
-## 🛠️ Tecnologias | Technologies
+## Tecnologias | Technologies
 
 | Tecnologia | Uso |
 |---|---|
@@ -91,7 +91,7 @@ ETL_GenAI/
 
 ---
 
-## 🚀 Como Executar | How to Run
+## Como Executar | How to Run
 
 ### Pré-requisitos | Prerequisites
 - Python 3.12+
@@ -135,7 +135,7 @@ Abra e execute o arquivo `code.ipynb` no Jupyter Notebook ou VS Code.
 
 ---
 
-## 📊 Saídas Geradas | Generated Outputs
+## Saídas Geradas | Generated Outputs
 
 | Arquivo | Formato | Descrição |
 |---|---|---|
